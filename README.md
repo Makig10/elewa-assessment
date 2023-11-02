@@ -1,3 +1,6 @@
+# Social impact branch
+This branch is responsible for making the social impact page as shown in the link:https://elewa.ke/social-impact
+
 # ElewaAssessment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
