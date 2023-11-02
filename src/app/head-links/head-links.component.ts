@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./head-links.component.css']
 })
 export class HeadLinksComponent {
-
+  links: string[] = ['Home', 'About us', 'Social impact', 'Invest', 'Venture Labs', 'Brands', 'Careers', 'Contacts'];
 }
