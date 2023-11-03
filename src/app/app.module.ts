@@ -38,6 +38,7 @@ import { InvestHeroComponent } from './invest-hero/invest-hero.component';
 import { InvestHeroContentComponent } from './invest-hero-content/invest-hero-content.component';
 import { InvestDetailSectionComponent } from './invest-detail-section/invest-detail-section.component';
 import { InvestKeyFiguresComponent } from './invest-key-figures/invest-key-figures.component';
+import { InvestKeyFigureCardComponent } from './invest-key-figure-card/invest-key-figure-card.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -83,6 +84,7 @@ const routes: Routes = [
     InvestHeroContentComponent,
     InvestDetailSectionComponent,
     InvestKeyFiguresComponent,
+    InvestKeyFigureCardComponent,
   
   ],
   imports: [
