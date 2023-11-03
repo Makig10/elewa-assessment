@@ -1,5 +1,5 @@
-# Social impact branch
-This branch is responsible for making the social impact page as shown in the link:https://elewa.ke/social-impact
+
+This project is responsible for making the social impact,about and invest pages as shown in the links:https://elewa.ke/social-impact,https://elewa.ke/about,https://elewa.ke/invest
 I have designed my project such that each feature such as the home page is singular component and each sub-feature is also a cub-component.
 I have used normal css for each component.
 The components are named according to its corresponding feature.
