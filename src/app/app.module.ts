@@ -44,6 +44,8 @@ import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creativ
 import { InvestingInElewaComponent } from './investing-in-elewa/investing-in-elewa.component';
 import { InvestCallToActionComponent } from './invest-call-to-action/invest-call-to-action.component';
 import { AboutMainPageComponent } from './about-main-page/about-main-page.component';
+import { AboutHeroComponent } from './about-hero/about-hero.component';
+import { AboutHeroContentComponent } from './about-hero-content/about-hero-content.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -96,6 +98,9 @@ const routes: Routes = [
     InvestingInElewaComponent,
     InvestCallToActionComponent,
     AboutMainPageComponent,
+    AboutHeroComponent,
+    AboutHeroContentComponent,
+  
   
   ],
   imports: [
