@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
@@ -33,7 +33,23 @@ import { CallToActionTextComponent } from './call-to-action-text/call-to-action-
 import { FooterComponent } from './footer/footer.component';
 import { FooterNavigationsComponent } from './footer-navigations/footer-navigations.component';
 import { FooterImagesComponent } from './footer-images/footer-images.component';
+import { InvestMainPageComponent } from './invest-main-page/invest-main-page.component';
+import { InvestHeroComponent } from './invest-hero/invest-hero.component';
+import { InvestHeroContentComponent } from './invest-hero-content/invest-hero-content.component';
+import { InvestDetailSectionComponent } from './invest-detail-section/invest-detail-section.component';
+import { InvestKeyFiguresComponent } from './invest-key-figures/invest-key-figures.component';
+import { InvestKeyFigureCardComponent } from './invest-key-figure-card/invest-key-figure-card.component';
+import { StakeholderSectionComponent } from './stakeholder-section/stakeholder-section.component';
+import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creative-hub.component';
+import { InvestingInElewaComponent } from './investing-in-elewa/investing-in-elewa.component';
+import { InvestCallToActionComponent } from './invest-call-to-action/invest-call-to-action.component';
 
+const routes: Routes = [
+  {path: '', component: MainPageComponent },
+  { path: 'social impact', component: MainPageComponent },
+  { path: 'invest', component: InvestMainPageComponent },
+  // Define other routes as needed
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,12 +83,24 @@ import { FooterImagesComponent } from './footer-images/footer-images.component';
     FooterComponent,
     FooterNavigationsComponent,
     FooterImagesComponent,
+    InvestMainPageComponent,
+    InvestHeroComponent,
+    InvestHeroContentComponent,
+    InvestDetailSectionComponent,
+    InvestKeyFiguresComponent,
+    InvestKeyFigureCardComponent,
+    StakeholderSectionComponent,
+    InvestCreativeHubComponent,
+    InvestingInElewaComponent,
+    InvestCallToActionComponent,
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
+  exports:[RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
