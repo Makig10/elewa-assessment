@@ -34,6 +34,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FooterNavigationsComponent } from './footer-navigations/footer-navigations.component';
 import { FooterImagesComponent } from './footer-images/footer-images.component';
 import { InvestMainPageComponent } from './invest-main-page/invest-main-page.component';
+import { InvestHeroComponent } from './invest-hero/invest-hero.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -75,6 +76,7 @@ const routes: Routes = [
     FooterNavigationsComponent,
     FooterImagesComponent,
     InvestMainPageComponent,
+    InvestHeroComponent,
   
   ],
   imports: [
