@@ -43,11 +43,13 @@ import { StakeholderSectionComponent } from './stakeholder-section/stakeholder-s
 import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creative-hub.component';
 import { InvestingInElewaComponent } from './investing-in-elewa/investing-in-elewa.component';
 import { InvestCallToActionComponent } from './invest-call-to-action/invest-call-to-action.component';
+import { AboutMainPageComponent } from './about-main-page/about-main-page.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
   { path: 'social impact', component: MainPageComponent },
   { path: 'invest', component: InvestMainPageComponent },
+  { path: 'about us', component: AboutMainPageComponent }
   // Define other routes as needed
 ];
 @NgModule({
@@ -93,6 +95,7 @@ const routes: Routes = [
     InvestCreativeHubComponent,
     InvestingInElewaComponent,
     InvestCallToActionComponent,
+    AboutMainPageComponent,
   
   ],
   imports: [
