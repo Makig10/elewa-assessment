@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,400&display=swap');
 .impact-section{
-    width: 63%;
-    padding-top: 100px;
-    padding-right: 260px;
-    padding-bottom: 0;
-    padding-left: 260px;
+    width: 100%;
+    padding: 0.5em;
     background-color: #000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     justify-items: center;
-    margin: 3;
+    /* margin: 3; */
     color: #f4f4f4;
     font-size: 2rem;
     font-family:'DM Sans', sans-serif;
