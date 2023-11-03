@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,400&display=swap');
+.invest-detail-section{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    background-color: #f4f4f4;
+    border-radius: 0 0 30px 30px;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    width: 100%;
+    height: fit-content;
+    display: block;
+}
+.content-container{
+    /* border:3px solid green; */
+    opacity: 1;
+    transform: translateZ(0);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    position: relative;
+    padding-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition-property: opacity,transform;
+    box-sizing: border-box;
+
+    padding: 0;
+    display: block;
+}
+h5{
+    font-size: 3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 50px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+}
+p{
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    padding-top: 30px;
+    font-weight: 300;
+    max-width: 70%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+img{
+    border-radius: 2%;
+    width: 100%;
+    padding-top: 7%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
