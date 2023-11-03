@@ -40,6 +40,7 @@ import { InvestDetailSectionComponent } from './invest-detail-section/invest-det
 import { InvestKeyFiguresComponent } from './invest-key-figures/invest-key-figures.component';
 import { InvestKeyFigureCardComponent } from './invest-key-figure-card/invest-key-figure-card.component';
 import { StakeholderSectionComponent } from './stakeholder-section/stakeholder-section.component';
+import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creative-hub.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -87,6 +88,7 @@ const routes: Routes = [
     InvestKeyFiguresComponent,
     InvestKeyFigureCardComponent,
     StakeholderSectionComponent,
+    InvestCreativeHubComponent,
   
   ],
   imports: [
