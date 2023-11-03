@@ -42,6 +42,7 @@ import { InvestKeyFigureCardComponent } from './invest-key-figure-card/invest-ke
 import { StakeholderSectionComponent } from './stakeholder-section/stakeholder-section.component';
 import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creative-hub.component';
 import { InvestingInElewaComponent } from './investing-in-elewa/investing-in-elewa.component';
+import { InvestCallToActionComponent } from './invest-call-to-action/invest-call-to-action.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -91,6 +92,7 @@ const routes: Routes = [
     StakeholderSectionComponent,
     InvestCreativeHubComponent,
     InvestingInElewaComponent,
+    InvestCallToActionComponent,
   
   ],
   imports: [
