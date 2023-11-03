@@ -1,5 +1,5 @@
 <ul id="head-links">
     <li class="nav-item-one" *ngFor="let link of links">
-        <a class="a-nav-item-one">{{ link }}</a>
+        <a class="a-nav-item-one" [routerLink]="['/' + link.toLowerCase()]">{{ link }}</a>
     </li>
 </ul>

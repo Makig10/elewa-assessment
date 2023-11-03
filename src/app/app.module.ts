@@ -36,7 +36,8 @@ import { FooterImagesComponent } from './footer-images/footer-images.component';
 import { InvestMainPageComponent } from './invest-main-page/invest-main-page.component';
 
 const routes: Routes = [
-  { path: '', component: MainPageComponent },
+  {path: '', component: MainPageComponent },
+  { path: 'social impact', component: MainPageComponent },
   { path: 'invest', component: InvestMainPageComponent },
   // Define other routes as needed
 ];
