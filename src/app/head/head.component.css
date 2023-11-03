@@ -1,0 +1,27 @@
+#header{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    z-index:999;
+    width: 100%;
+    background-color: transparent;
+    /* border:3px solid yellow; */
+}
+#content-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    max-width: 90%;
+    margin:auto;
+    
+}
+#image-container{
+    cursor: pointer;
+width:50%;
+align-items: left;
+margin: 16px 0;
+/* outline: 3px solid yellow; */
+}

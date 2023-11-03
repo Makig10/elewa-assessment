@@ -1,0 +1,11 @@
+.backgroundImage{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    width: 100vw;
+    height:100vh;
+}
+img{
+    overflow: clip;
+    overflow-clip-margin: content-box ;
+}
