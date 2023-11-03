@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
@@ -33,7 +33,13 @@ import { CallToActionTextComponent } from './call-to-action-text/call-to-action-
 import { FooterComponent } from './footer/footer.component';
 import { FooterNavigationsComponent } from './footer-navigations/footer-navigations.component';
 import { FooterImagesComponent } from './footer-images/footer-images.component';
+import { InvestMainPageComponent } from './invest-main-page/invest-main-page.component';
 
+const routes: Routes = [
+  { path: '', component: MainPageComponent },
+  { path: 'invest', component: InvestMainPageComponent },
+  // Define other routes as needed
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -67,12 +73,15 @@ import { FooterImagesComponent } from './footer-images/footer-images.component';
     FooterComponent,
     FooterNavigationsComponent,
     FooterImagesComponent,
+    InvestMainPageComponent,
   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot(routes)
   ],
+  exports:[RouterModule],
   providers: [],
   bootstrap: [AppComponent]
 })
