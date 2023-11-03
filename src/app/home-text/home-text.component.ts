@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-text.component.css']
 })
 export class HomeTextComponent {
-
+subtitle: string="Scaling impact.Beyond the norm";
+title: string="Human and Environmental Impact through Social Enterprise"
 }

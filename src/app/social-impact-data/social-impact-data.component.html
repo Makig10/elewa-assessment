@@ -1,1 +1,6 @@
-<p>social-impact-data works!</p>
+<div class="impact-section">
+    <div class="sections" *ngFor="let section of sections">
+        <h1>{{ section.value }}</h1>
+        <p>{{ section.title }}</p>
+    </div>
+</div>

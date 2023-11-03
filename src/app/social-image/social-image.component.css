@@ -1,0 +1,13 @@
+.image-container{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-height: max(70vh,500px);
+    max-width: 45vw;
+    object-fit: cover;
+    border-radius: 2em;
+    overflow-clip-margin: content-box;
+    overflow:clip;
+}

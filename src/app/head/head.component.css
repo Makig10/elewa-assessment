@@ -5,8 +5,8 @@
     right:0;
     z-index:999;
     width: 100%;
-    outline: 2px solid yellow;
     background-color: transparent;
+    /* border:3px solid yellow; */
 }
 #content-container{
     position: relative;
@@ -16,11 +16,12 @@
     padding-top: 20px;
     max-width: 90%;
     margin:auto;
-    outline: 2px solid blue;
+    
 }
 #image-container{
+    cursor: pointer;
 width:50%;
 align-items: left;
 margin: 16px 0;
-outline: 2px solid green;
+/* outline: 3px solid yellow; */
 }
