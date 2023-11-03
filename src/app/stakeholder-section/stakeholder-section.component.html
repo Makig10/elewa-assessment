@@ -1,5 +1,16 @@
 <div class="stakeholder-sctn">
     <div class="banner">
-        
+       <div class="content-box">
+         <div class="text-content">
+             <h1>{{ title }}</h1>
+             <p *ngFor="let paragraph of paragraphs">
+                {{ paragraph }}
+             </p>
+         </div>
+         <div class="image-content">
+            <img [src]="imageLink">
+         </div>
+
+       </div> 
     </div>
 </div>
