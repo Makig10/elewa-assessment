@@ -7,8 +7,8 @@
             <p class="head-p"> {{ header[1] }}</p>
         </div>
 
-        <div class="carousel-box" >
-            <div [@slide]="currentMemberIndex" class="card" *ngFor="let member of members" >
+        <div class="carousel-box"  >
+            <div [@slide]="animationState" class="card" *ngFor="let member of members" >
                <img [src]="member.image" class="card-img">
                <p class="name">{{ member.name }}</p>
                <p class="title">{{ member.title}}</p>

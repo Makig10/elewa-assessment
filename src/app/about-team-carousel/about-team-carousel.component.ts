@@ -12,13 +12,14 @@ interface Member{
   styleUrls: ['./about-team-carousel.component.css'],
   animations: [
     trigger('slide', [
-      state('*', style({ transform: 'translateX(0)' })), // Add a default state
-      transition('* => prev', [
-        style({ transform: 'translateX(100%)' }),
+      state('next', style({ transform: 'translateX(0)' })), // Change to 'next'
+      state('prev', style({ transform: 'translateX(0)' })), // Add 'prev' state
+      transition('next => prev', [
+        style({ transform: 'translateX(-100%)' }),
         animate('500ms', style({ transform: 'translateX(0)' }))
       ]),
-      transition('* => next', [
-        style({ transform: 'translateX(-100%)' }),
+      transition('prev => next', [
+        style({ transform: 'translateX(100%)' }),
         animate('500ms', style({ transform: 'translateX(0)' }))
       ])
     ])
@@ -73,7 +74,7 @@ members:Member[]=[
 // Initialize the current member index to the first member.
 currentMemberIndex: number = 0;
 
-animationState: string = 'next';
+animationState: string = 'slide';
 scrollLeft() {
   if (this.currentMemberIndex > 0) {
     this.currentMemberIndex--;
