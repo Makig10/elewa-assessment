@@ -47,6 +47,7 @@ import { AboutMainPageComponent } from './about-main-page/about-main-page.compon
 import { AboutHeroComponent } from './about-hero/about-hero.component';
 import { AboutHeroContentComponent } from './about-hero-content/about-hero-content.component';
 import { AboutWeCareComponent } from './about-we-care/about-we-care.component';
+import { AboutTeamCarouselComponent } from './about-team-carousel/about-team-carousel.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -102,6 +103,7 @@ const routes: Routes = [
     AboutHeroComponent,
     AboutHeroContentComponent,
     AboutWeCareComponent,
+    AboutTeamCarouselComponent,
   
   
   ],
