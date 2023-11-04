@@ -46,6 +46,7 @@ import { InvestCallToActionComponent } from './invest-call-to-action/invest-call
 import { AboutMainPageComponent } from './about-main-page/about-main-page.component';
 import { AboutHeroComponent } from './about-hero/about-hero.component';
 import { AboutHeroContentComponent } from './about-hero-content/about-hero-content.component';
+import { AboutWeCareComponent } from './about-we-care/about-we-care.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
@@ -100,6 +101,7 @@ const routes: Routes = [
     AboutMainPageComponent,
     AboutHeroComponent,
     AboutHeroContentComponent,
+    AboutWeCareComponent,
   
   
   ],

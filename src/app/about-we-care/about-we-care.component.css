@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,500;1,9..40,400&display=swap');
+.about-we-care{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.container{
+    padding: 100px 0;
+    max-width: 100%;
+    margin: auto;
+    background-color: #f4f4f4;
+    border-radius: 0 0 30px 30px;
+    display: block;
+}
+.content{
+    opacity: 1;
+    transform: translateZ(0);
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    max-width: 90%;
+    margin: auto;
+    padding:0;
+    box-sizing: border-box;
+
+}
+h2{
+    display: block;
+    font-size: 3em;
+    font-family: 'DM Sans', sans-serif;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3{
+    font-size: 2rem;
+    font-weight:300;
+    font-family: 'DM Sans', sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: block;
+
+}
+.paragraph-container{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin-bottom: 80px;
+}
+.paragraph{
+    flex-basis: 45%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+
+}
+.about-p{
+    font-size: 1.3rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+.icon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px
+}
+.about-card{
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display:block;
+}
+i{
+    max-height: 90px;
+    width: auto;
+    color: gray;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    max-height: 90px;
+    width: auto;
+    color: gray;
+    margin-bottom: 20px;
+}
