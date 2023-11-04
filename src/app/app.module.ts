@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
@@ -43,11 +44,17 @@ import { StakeholderSectionComponent } from './stakeholder-section/stakeholder-s
 import { InvestCreativeHubComponent } from './invest-creative-hub/invest-creative-hub.component';
 import { InvestingInElewaComponent } from './investing-in-elewa/investing-in-elewa.component';
 import { InvestCallToActionComponent } from './invest-call-to-action/invest-call-to-action.component';
+import { AboutMainPageComponent } from './about-main-page/about-main-page.component';
+import { AboutHeroComponent } from './about-hero/about-hero.component';
+import { AboutHeroContentComponent } from './about-hero-content/about-hero-content.component';
+import { AboutWeCareComponent } from './about-we-care/about-we-care.component';
+import { AboutTeamCarouselComponent } from './about-team-carousel/about-team-carousel.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent },
   { path: 'social impact', component: MainPageComponent },
   { path: 'invest', component: InvestMainPageComponent },
+  { path: 'about us', component: AboutMainPageComponent }
   // Define other routes as needed
 ];
 @NgModule({
@@ -93,12 +100,20 @@ const routes: Routes = [
     InvestCreativeHubComponent,
     InvestingInElewaComponent,
     InvestCallToActionComponent,
+    AboutMainPageComponent,
+    AboutHeroComponent,
+    AboutHeroContentComponent,
+    AboutWeCareComponent,
+    AboutTeamCarouselComponent,
+  
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    BrowserAnimationsModule
+
   ],
   exports:[RouterModule],
   providers: [],

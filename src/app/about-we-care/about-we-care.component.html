@@ -1,0 +1,18 @@
+<div class="app-about-we-care">
+ <div class="container">
+    <div class="content">
+        <h2>{{ title }}</h2>
+        <div class="paragraph-container">
+            <p class="paragraph" *ngFor="let paragraph of paragraphs">{{ paragraph }}</p>
+        </div>
+        <div class="icon-box">
+            <div class="about-card" *ngFor="let card of cards">
+                <i></i>
+                <img [src]="card.image">
+                <h3>{{ card.title }}</h3>
+                <p class="about-p">{{ card.paragraph }}</p>
+            </div>
+        </div>
+    </div>
+ </div>
+</div>
