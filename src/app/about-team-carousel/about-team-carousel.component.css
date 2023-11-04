@@ -70,6 +70,7 @@
 }
 .name{
 font-size: 1.6rem;
+font-family: 'DM Sans', sans-serif;
 margin: 5px 0;
 color:#fff;
 display: block;
@@ -94,6 +95,8 @@ margin-inline-end: 0px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    width:1em;
+    height:1em;
 }
 .svg{
     color:#fff;
@@ -101,10 +104,11 @@ margin-inline-end: 0px;
     box-sizing: content-box;
     padding: 5px;
     display: var(--fa-display,inline-block);
-    height: 1em;
+    height: 1rem;
     /* overflow: visible; */
     vertical-align: -0.125em;
     overflow-clip-margin: content-box;
+    
 }
 .button-section{
     margin: 20px 0;
