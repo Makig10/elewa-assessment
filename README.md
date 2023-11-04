@@ -1,9 +1,20 @@
 
 This project is responsible for making the social impact,about and invest pages as shown in the links:https://elewa.ke/social-impact,https://elewa.ke/about,https://elewa.ke/invest.
-Each page is housed in a component ending with "main-page"
+
+Each page is housed in a component ending with "main-page".
+
+Components are named after the sections or features in the website.
+
 I have designed my project such that each feature such as the home page is singular component and each sub-feature is also a cub-component.
+
+Technologies used:
 I have used normal css for each component.
-The components are named according to its corresponding feature.
+
+Typescript language is the only language used for the logic.
+
+Angular framework has been used as well.
+
+The website can be run through "ng serve --open" on the terminal
 
 # ElewaAssessment
 
