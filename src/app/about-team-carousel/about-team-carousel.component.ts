@@ -46,7 +46,7 @@ members:Member[]=[
     title:"Operations & Partnerships"
   },
   {
-    image:"https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656820/elewa-group-website/elewa-team-members/jente-elewa_wbqyyi.jpg",
+    image:"https://res.cloudinary.com/dyl3rncv3/image/upload/v1679656822/elewa-group-website/elewa-team-members/peter-elewa_zuzovx.jpg",
     name:"Peter Reinartz",
     title:"Executive Chairman"
   },
@@ -71,22 +71,36 @@ members:Member[]=[
   }
 
 ]
+
 // Initialize the current member index to the first member.
 currentMemberIndex: number = 0;
 
 animationState: string = 'slide';
-scrollLeft() {
-  if (this.currentMemberIndex > 0) {
-    this.currentMemberIndex--;
-    this.animationState = 'prev';
-  }
-}
 
-scrollRight() {
-  if (this.currentMemberIndex < this.members.length - 1) {
-    this.currentMemberIndex++;
-    this.animationState = 'next';
+visibleMembers: number = 4;
+
+  constructor() {}
+
+  scrollLeft() {
+    if (this.currentMemberIndex > 0) {
+      this.currentMemberIndex--;
+      this.animationState = 'prev';
+    } else {
+      // If at the first member, set the index to the last member for a reverse loop
+      this.currentMemberIndex = this.members.length - this.visibleMembers;
+      this.animationState = 'prev';
+    }
   }
-}
+
+  scrollRight() {
+    if (this.currentMemberIndex < this.members.length - 1) {
+      this.currentMemberIndex++;
+      this.animationState = 'next';
+    } else {
+      // If at the last member, set the index to the first member for a loop
+      this.currentMemberIndex = 0;
+      this.animationState = 'next';
+    }
+  }
 
 }
