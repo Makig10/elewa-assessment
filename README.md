@@ -1,5 +1,6 @@
 
-This project is responsible for making the social impact,about and invest pages as shown in the links:https://elewa.ke/social-impact,https://elewa.ke/about,https://elewa.ke/invest
+This project is responsible for making the social impact,about and invest pages as shown in the links:https://elewa.ke/social-impact,https://elewa.ke/about,https://elewa.ke/invest.
+Each page is housed in a component ending with "main-page"
 I have designed my project such that each feature such as the home page is singular component and each sub-feature is also a cub-component.
 I have used normal css for each component.
 The components are named according to its corresponding feature.
